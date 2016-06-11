@@ -8,22 +8,28 @@
     <style type="text/css">
         body
         {
-            padding-top: 50px;
+            margin: 0;
+            padding: 2em 15%;
             font-family: Verdana, Arial, sans-serif;
         }
 
         header h1
         {
+            margin: 0;
             text-align: center;
             font-size: 1em;
             font-weight: normal;
             color: #707070;
         }
-        header h1 a {
+
+        header h1 a
+        {
             text-decoration: none;
             color: inherit;
         }
-        header h1 span {
+
+        header h1 span
+        {
             font-size: 2em;
             font-weight: bold;
             color: #000000;
@@ -31,11 +37,15 @@
 
         article
         {
-            width: 80%;
-            line-height: 40px;
+            margin: 2em 0;
+            line-height: 1.7em;
             font-weight: normal;
             font-size: 1.1em;
             text-align: center;
+        }
+        p
+        {
+            margin: 0;
         }
     </style>
     <script>
@@ -49,10 +59,10 @@
     <h1><a href="/"><span>stay.o.pen</span>.wf</a></h1>
 </header>
 <article>
-    <p>Keep accidentally closing your browser windows? Keep this page open in a tab (pin it!) in each window to force your browser to confirm any attempts to close a window!</p>
+    <p>Keep accidentally closing your browser windows? Keep this page open in a tab (pin it! bookmark it!) in each window to force your browser to confirm any attempts to close a window!</p>
 </article>
 <footer>
-    <p>This page was heavily inspired by <a href="http://www.maki-chan.de/preventclose.htm">"Prevent browser close tab"</a>.</p>
+    <p>This page was heavily inspired by “<a href="http://www.maki-chan.de/preventclose.htm">Prevent browser close tab</a>”. My main reason for “forking” it was to add a ‘favicon’ for easier identification amongst my pinned tabs — a nicer URL (using a domain that I already owned and which happened to fit this purpose nicely) and other tweaks are simply added extras!</p>
 </footer>
 </body>
 </html>
