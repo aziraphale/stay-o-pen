@@ -5,12 +5,15 @@
     <title>Stay Open! Keep Your Browser Windows Open!</title>
     <link rel="canonical" href="http://stay.o.pen.wf/">
     <link rev="canonical" href="http://o.pen.wf/">
+    <link rel="shorturl" href="http://o.pen.wf/">
     <style type="text/css">
         body
         {
             margin: 0;
             padding: 2em 15%;
             font-family: Verdana, Arial, sans-serif;
+            background-color: #252525;
+            color: #cacaca;
         }
 
         header h1
@@ -19,7 +22,7 @@
             text-align: center;
             font-size: 1em;
             font-weight: normal;
-            color: #707070;
+            color: #808080;
         }
 
         header h1 a
@@ -32,7 +35,7 @@
         {
             font-size: 2em;
             font-weight: bold;
-            color: #000000;
+            color: #cacaca;
         }
 
         article
@@ -47,11 +50,23 @@
         {
             margin: 0;
         }
+        footer
+        {
+            font-size: 0.8em;
+            color: #a0a0a0;
+            position: absolute;
+            bottom: 2em;
+            width: 70%;
+        }
+        footer a
+        {
+            color: #808080;
+        }
     </style>
     <script>
         window.onbeforeunload = function() {
-            return "Are you sure you wish to close your browser window?";
-        }
+            return "Are you sure you wish to close this browser window?";
+        };
     </script>
 </head>
 <body>
