@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+if (strcasecmp($_SERVER['HTTP_HOST'], 'stay.o.pen.wf') !== 0) {
+    header("Location: http://stay.o.pen.wf/", true, 301);
+    die();
+}
+?><!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
@@ -77,7 +82,7 @@
     <p>Keep accidentally closing your browser windows? Keep this page open in a tab (pin it! bookmark it!) in each window to force your browser to confirm any attempts to close a window!</p>
 </article>
 <footer>
-    <p>This page was heavily inspired by “<a href="http://www.maki-chan.de/preventclose.htm">Prevent browser close tab</a>”. My main reason for “forking” it was to add a ‘favicon’ for easier identification amongst my pinned tabs — a nicer URL (using a domain that I already owned and which happened to fit this purpose nicely) and other tweaks are simply added extras!</p>
+    <p>This page was heavily inspired by “<a href="http://www.maki-chan.de/preventclose.htm">Prevent browser close tab</a>”. My main reason for “forking” it was to add a ‘<a href="https://en.wikipedia.org/wiki/Favicon">favicon</a>’ for easier identification amongst my pinned tabs — a nicer URL (using a domain that I already owned and which happened to fit this purpose nicely) and other tweaks are simply added extras!</p>
 </footer>
 </body>
 </html>
