@@ -11,6 +11,35 @@ if (strcasecmp($_SERVER['HTTP_HOST'], 'stay.o.pen.wf') !== 0) {
     <link rel="canonical" href="http://stay.o.pen.wf/">
     <link rev="canonical" href="http://o.pen.wf/">
     <link rel="shorturl" href="http://o.pen.wf/">
+
+    <link rel="icon" href="icon_512.png" type="image/png"/>
+    <link rel="shortcut icon" href="icon_512.png" type="image/png"/>
+    <link rel="mask-icon" href="icon.svg">
+    <link rel="fluid-icon" href="icon_512.png" title="stay.o.pen.wf">
+
+    <link rel="icon" type="image/png" href="icon_16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="icon_32.png" sizes="32x32">
+    <link rel="shortcut icon" href="icon_m.ico">
+    <meta property="og:image" content="icon_512.png">
+    <meta name="theme-color" content="#252525">
+
+    <link rel="apple-touch-icon" type="image/png" href="icon_512.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="icon_512.png">
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Stay Open! Keep Your Browser Window Open! stay.o.pen.wf" />
+    <meta property="og:description" content="Prevent accidental closing of browser windows by keeping this site open!" />
+    <meta property="og:url" content="http://stay.o.pen.wf/" />
+    <meta property="og:site_name" content="stay.o.pen.wf" />
+    <meta property="og:image" content="http://stay.o.pen.wf/icon_512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Prevent accidental closing of browser windows by keeping this site open!" />
+    <meta name="twitter:title" content="Stay Open! Keep Your Browser Window Open! stay.o.pen.wf" />
+    <meta name="twitter:image" content="http://stay.o.pen.wf/icon_512.png" />
+
     <style type="text/css">
         body
         {
@@ -20,7 +49,6 @@ if (strcasecmp($_SERVER['HTTP_HOST'], 'stay.o.pen.wf') !== 0) {
             background-color: #252525;
             color: #cacaca;
         }
-
         header h1
         {
             margin: 0;
@@ -29,20 +57,17 @@ if (strcasecmp($_SERVER['HTTP_HOST'], 'stay.o.pen.wf') !== 0) {
             font-weight: normal;
             color: #808080;
         }
-
         header h1 a
         {
             text-decoration: none;
             color: inherit;
         }
-
         header h1 span
         {
             font-size: 2em;
             font-weight: bold;
             color: #cacaca;
         }
-
         article
         {
             margin: 2em 0;
@@ -67,6 +92,11 @@ if (strcasecmp($_SERVER['HTTP_HOST'], 'stay.o.pen.wf') !== 0) {
         {
             color: #808080;
         }
+        footer .icon-credit
+        {
+            margin-top: 1em;
+            text-align: right;
+        }
     </style>
     <script>
         window.onbeforeunload = function() {
@@ -83,6 +113,7 @@ if (strcasecmp($_SERVER['HTTP_HOST'], 'stay.o.pen.wf') !== 0) {
 </article>
 <footer>
     <p>This page was heavily inspired by “<a href="http://www.maki-chan.de/preventclose.htm">Prevent browser close tab</a>”. My main reason for “forking” it was to add a ‘<a href="https://en.wikipedia.org/wiki/Favicon">favicon</a>’ for easier identification amongst my pinned tabs — a nicer URL (using a domain that I already owned and which happened to fit this purpose nicely) and other tweaks are simply added extras!</p>
+    <p class="icon-credit">Icon by <a href="https://icomoon.io/app">IcoMoon</a></p>
 </footer>
 </body>
 </html>
